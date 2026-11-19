@@ -1,0 +1,106 @@
+device_code,location,country,latitude,longitude,confidence
+AHO,Buenos Aires,Argentina,-34.6037,-58.3816,medium
+AP,Sai Kung,Hong Kong,22.3817,114.2714,high
+Arl,Arlington VA,USA,38.8816,-77.0910,high
+BC01,Blanco TX,USA,29.9833,-98.4203,medium
+BMCO,Big Music Creek AR,USA,36.0500,-92.7500,low
+BO,Monchengladbach,Germany,51.1805,6.4428,high
+CEOU,Seoul,Korea,37.5665,126.9780,medium
+Dal,Promiod,Italy,45.7333,7.6667,low
+DNSM,Daegu,Korea,35.8714,128.6014,high
+ELO,South-Brandenburg,Germany,51.6833,13.2333,low
+FKYC,Fanling,Hong Kong,22.4944,114.1386,high
+GMARS,Landers CA,USA,34.2906,-116.5739,high
+GUT,Gdansk,Poland,54.3520,18.6466,high
+HCMN,Dripping Springs TX,USA,30.1900,-98.0867,medium
+HKU,Pokfulam,Hong Kong,22.2830,114.1400,high
+HKn,Tsuen Wan,Hong Kong,22.3707,114.1137,high
+Heh,Taroko National Park,Taiwan,24.1588,121.6222,low
+ISTC,Inthanon Mountain,Thailand,18.5889,98.4867,medium
+Jub,Jubilee TX,USA,30.4000,-98.0000,low
+KO,Katrineholm,Sweden,58.9950,16.2122,high
+KP,Kowloon (Kings Park),Hong Kong,22.3064,114.1722,high
+LASO,English IN,USA,38.3345,-86.4620,low
+LHY,Siu Sai Wan,Hong Kong,22.2639,114.2436,high
+MP,Mai Po,Hong Kong,22.4906,114.0347,high
+Nrnr,Namib Desert,Namibia,-24.8000,15.9000,low
+OCO,Onion Creek TX,USA,30.1611,-97.8647,medium
+Oam,Oamaru,New Zealand,-45.0975,170.9706,high
+PAOF,Ouro Fino MG,Brazil,-22.2825,-46.3692,medium
+POB,Belgrade,Serbia,44.8125,20.4612,high
+SH,Shek Pik,Hong Kong,22.2214,113.8964,high
+SNUO,Seoul,Korea,37.4592,126.9517,medium
+SR,Shield Ranch TX,USA,30.1500,-98.0000,low
+SZMS,Shenzhen,China,22.5431,114.0579,medium
+SkO,Lima,Peru,-12.0464,-77.0428,medium
+TBT,Tsim Bei Tsui,Hong Kong,22.4817,114.0283,high
+TNO,Chiang Mai (Doi Inthanon),Thailand,18.5900,98.4860,medium
+TSO,San Diego (Tierra del Sol),USA,32.6672,-116.4725,medium
+TST,Kowloon (Space Museum),Hong Kong,22.2941,114.1722,high
+TSU,Texas State Univ Freeman Center,USA,29.8381,-97.9736,medium
+Tura,Merimbula NSW,Australia,-36.9000,149.9000,low
+UO,Vaddo Stockholm,Sweden,59.9500,18.9000,low
+UiTM,Shah Alam,Malaysia,3.0738,101.5183,high
+WODC,Westcave TX,USA,30.1869,-98.2878,medium
+Zwi,Zwiesel,Germany,49.0167,13.2333,high
+iObs,Sai Kung,Hong Kong,22.3817,114.2714,high
+BAN,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+BAS,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+CEN,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+LUM,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+MON,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+MP2,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+SOL,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+XLS,UNKNOWN - not in official GaN-MN station list,,,,unmapped
+NAOJ,"Mitaka, Tokyo",Japan,35.6764,139.5398,medium
+TAM,Taipei Astronomical Museum,Taiwan,25.0633,121.5195,medium
+NTHU,Hsinchu,Taiwan,24.7955,120.9958,medium
+SAAO,Cape Town,South Africa,-33.9344,18.4769,medium
+DAO,"Victoria BC (Dominion Astrophysical Obs.)",Canada,48.5202,-123.4193,medium
+NUM,Ulaanbaatar,Mongolia,47.9077,106.8832,low
+AGR,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Ame,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Bar,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+BhD,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Boe,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+CGAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+CHSMO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+CKCAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+CNUO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Cap,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Col,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Cre,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Dez,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+EEC,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+GCH,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+GSAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+GYTI,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Gdh,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Gri,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Gzc,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Hee,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Hor,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+KHG,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+KuO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+LBD,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+LUO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Lau,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Lei,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Loc,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+MAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+MBD,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+MFAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+MSP,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Mac,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+NEO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+NNO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Roo,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Sel,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+TNWR,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+TOA,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+UBD,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Wad,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+Wux,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+YBAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+YFAO,UNKNOWN - unidentified GaN-MN station code,,,,unmapped
+ZSSP,UNKNOWN - unidentified GaN-MN station code,,,,unmapped

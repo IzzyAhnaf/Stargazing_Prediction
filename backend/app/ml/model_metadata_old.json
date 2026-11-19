@@ -1,0 +1,24 @@
+{
+  "features": [
+    "cloud_cover_high",
+    "cloud_cover_mid",
+    "cloud_cover_low",
+    "relative_humidity",
+    "dew_point_spread",
+    "moon_illumination",
+    "moon_altitude",
+    "milky_way_core_altitude",
+    "bortle_scale"
+  ],
+  "target": "stargazing_score",
+  "metrics": {
+    "r2_score": 0.711,
+    "mae": 11.288,
+    "rmse": 16.837,
+    "train_samples": 184928,
+    "val_samples": 23116,
+    "test_samples": 23116
+  },
+  "model_type": "XGBRegressor",
+  "data_source": "GaN-MN (globeatnight.org) 2024-2025, 45 stations, weather from Open-Meteo Archive API, astronomy from ephem, bortle_scale derived from each station's own p90 nsb_mean"
+}

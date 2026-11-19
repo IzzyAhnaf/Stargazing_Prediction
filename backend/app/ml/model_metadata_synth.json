@@ -1,0 +1,23 @@
+{
+  "features": [
+    "cloud_cover_high",
+    "cloud_cover_mid",
+    "cloud_cover_low",
+    "relative_humidity",
+    "dew_point_spread",
+    "moon_illumination",
+    "moon_altitude",
+    "milky_way_core_altitude",
+    "bortle_scale"
+  ],
+  "target": "stargazing_score",
+  "metrics": {
+    "r2_score": 0.976,
+    "mae": 3.224,
+    "rmse": 4.445,
+    "train_samples": 8000,
+    "val_samples": 1000,
+    "test_samples": 1000
+  },
+  "model_type": "XGBRegressor"
+}

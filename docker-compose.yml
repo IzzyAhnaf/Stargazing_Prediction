@@ -1,0 +1,68 @@
+services:
+  # ============================================================================
+  # 1. FastAPI Machine Learning Backend Service
+  # ============================================================================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: stargazing-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT=8000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    networks:
+      - stargazing-net
+
+  # ============================================================================
+  # 2. Next.js Night-Sky Frontend Service
+  # ============================================================================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    container_name: stargazing-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - stargazing-net
+
+  # ============================================================================
+  # 3. Cloudflare Tunnel (Secure Zero-Trust Public Gateway)
+  # ============================================================================
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: stargazing-cloudflare-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      # Set your Cloudflare Tunnel Token in .env file
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - stargazing-net
+    profiles:
+      - tunnel  # Run with `docker compose --profile tunnel up -d` when tunnel token is configured
+
+networks:
+  stargazing-net:
+    driver: bridge

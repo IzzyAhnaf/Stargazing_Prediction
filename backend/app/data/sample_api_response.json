@@ -1,0 +1,2395 @@
+{
+  "success": true,
+  "location": {
+    "latitude": 33.8734,
+    "longitude": -115.901,
+    "elevation": 820.0,
+    "bortle_scale": 3,
+    "bortle_source": "manual_override",
+    "bortle_description": "Class 3: Rural sky. Light pollution faint along horizons, clouds dimly illuminated near horizons."
+  },
+  "summary": {
+    "overall_night_score": 89.5,
+    "rating_category": "Excellent",
+    "best_window": {
+      "start_time": "2026-11-06T01:00",
+      "end_time": "2026-11-07T14:00",
+      "peak_time": "2026-11-07T01:00",
+      "peak_score": 90.7,
+      "milky_way_core_visible": false,
+      "key_recommendation": "Prime conditions expected around 2026-11-07T01:00 UTC. Bring wide-aperture lenses; pristine dark sky with minimal atmospheric disturbance."
+    },
+    "moon_summary": {
+      "phase_name": "Waning Crescent",
+      "illumination_pct": 5.2,
+      "moon_altitude_at_peak": -23.3,
+      "moon_interference_note": "Moon is below the horizon during peak hours, providing natural dark sky."
+    },
+    "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)"
+  },
+  "hourly_forecast": [
+    {
+      "timestamp_utc": "2026-11-06T00:00",
+      "stargazing_score": 90.3,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 4.0,
+      "cloud_cover_high": 4.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 28.0,
+      "temperature": 20.2,
+      "dew_point": 1.1,
+      "dew_point_spread": 19.099999999999998,
+      "visibility_meters": 65100.0,
+      "sun_altitude": 8.36,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.1098,
+      "moon_altitude": -16.81,
+      "moon_azimuth": 274.87,
+      "milky_way_core_altitude": 23.64,
+      "milky_way_core_azimuth": 201.41,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.3,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.8 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.8 pts)",
+          "Clear mid-troposphere (+8.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-1.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.85,
+          "cloud_cover_mid": 8.31,
+          "cloud_cover_low": 13.85,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.52,
+          "moon_illumination": 2.49,
+          "moon_altitude": 3.78,
+          "milky_way_core_altitude": -1.17,
+          "bortle_scale": 6.48
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T01:00",
+      "stargazing_score": 86.2,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 23.0,
+      "cloud_cover_high": 23.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 31.0,
+      "temperature": 18.7,
+      "dew_point": 1.3,
+      "dew_point_spread": 17.4,
+      "visibility_meters": 62500.0,
+      "sun_altitude": -2.04,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.1071,
+      "moon_altitude": -28.8,
+      "moon_azimuth": 283.57,
+      "milky_way_core_altitude": 17.83,
+      "milky_way_core_azimuth": 214.01,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 86.2,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.7 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.7 pts)",
+          "Clear mid-troposphere (+9.3 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+3.8 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-1.3 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 2.05,
+          "cloud_cover_mid": 9.27,
+          "cloud_cover_low": 13.72,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.49,
+          "moon_illumination": 2.66,
+          "moon_altitude": 3.75,
+          "milky_way_core_altitude": -1.33,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T02:00",
+      "stargazing_score": 89.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 17.2,
+      "dew_point": 0.4,
+      "dew_point_spread": 16.8,
+      "visibility_meters": 58800.0,
+      "sun_altitude": -15.48,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.1044,
+      "moon_altitude": -40.28,
+      "moon_azimuth": 294.1,
+      "milky_way_core_altitude": 9.93,
+      "milky_way_core_azimuth": 224.81,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.4 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.13,
+          "cloud_cover_mid": 8.46,
+          "cloud_cover_low": 13.93,
+          "relative_humidity": 0.1,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.55,
+          "moon_altitude": 3.58,
+          "milky_way_core_altitude": -2.14,
+          "bortle_scale": 6.43
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T03:00",
+      "stargazing_score": 89.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 33.0,
+      "temperature": 16.3,
+      "dew_point": -0.0,
+      "dew_point_spread": 16.3,
+      "visibility_meters": 57700.0,
+      "sun_altitude": -27.88,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.1018,
+      "moon_altitude": -50.69,
+      "moon_azimuth": 308.23,
+      "milky_way_core_altitude": 0.78,
+      "milky_way_core_azimuth": 233.95,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.4 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.14,
+          "cloud_cover_mid": 8.4,
+          "cloud_cover_low": 13.93,
+          "relative_humidity": 0.1,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.52,
+          "moon_altitude": 3.65,
+          "milky_way_core_altitude": -2.18,
+          "bortle_scale": 6.43
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T04:00",
+      "stargazing_score": 89.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 15.4,
+      "dew_point": -2.1,
+      "dew_point_spread": 17.5,
+      "visibility_meters": 62100.0,
+      "sun_altitude": -40.31,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0992,
+      "moon_altitude": -58.86,
+      "moon_azimuth": 328.76,
+      "milky_way_core_altitude": -10.22,
+      "milky_way_core_azimuth": 241.8,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.4 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.1,
+          "cloud_cover_mid": 8.42,
+          "cloud_cover_low": 13.93,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 2.63,
+          "moon_altitude": 3.57,
+          "milky_way_core_altitude": -2.15,
+          "bortle_scale": 6.44
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T05:00",
+      "stargazing_score": 89.7,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 28.0,
+      "temperature": 14.7,
+      "dew_point": -3.6,
+      "dew_point_spread": 18.3,
+      "visibility_meters": 65800.0,
+      "sun_altitude": -52.42,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0967,
+      "moon_altitude": -62.65,
+      "moon_azimuth": 357.21,
+      "milky_way_core_altitude": -21.56,
+      "milky_way_core_azimuth": 248.72,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.7,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.94,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.59,
+          "moon_illumination": 2.75,
+          "moon_altitude": 3.4,
+          "milky_way_core_altitude": -2.15,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T06:00",
+      "stargazing_score": 89.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 14.1,
+      "dew_point": -2.4,
+      "dew_point_spread": 16.5,
+      "visibility_meters": 60500.0,
+      "sun_altitude": -63.46,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0941,
+      "moon_altitude": -60.34,
+      "moon_azimuth": 26.99,
+      "milky_way_core_altitude": -33.43,
+      "milky_way_core_azimuth": 255.11,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.39,
+          "cloud_cover_low": 13.95,
+          "relative_humidity": 0.1,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.65,
+          "moon_altitude": 3.57,
+          "milky_way_core_altitude": -2.13,
+          "bortle_scale": 6.45
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T07:00",
+      "stargazing_score": 89.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 35.0,
+      "temperature": 13.5,
+      "dew_point": -1.7,
+      "dew_point_spread": 15.2,
+      "visibility_meters": 56100.0,
+      "sun_altitude": -71.11,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0916,
+      "moon_altitude": -53.09,
+      "moon_azimuth": 49.61,
+      "milky_way_core_altitude": -45.65,
+      "milky_way_core_azimuth": 261.43,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.1,
+          "cloud_cover_mid": 8.4,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.1,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.7,
+          "moon_altitude": 3.51,
+          "milky_way_core_altitude": -2.11,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T08:00",
+      "stargazing_score": 89.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 31.0,
+      "temperature": 13.0,
+      "dew_point": -3.7,
+      "dew_point_spread": 16.7,
+      "visibility_meters": 61200.0,
+      "sun_altitude": -70.68,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0892,
+      "moon_altitude": -43.19,
+      "moon_azimuth": 65.15,
+      "milky_way_core_altitude": -58.08,
+      "milky_way_core_azimuth": 268.43,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.44,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.75,
+          "moon_altitude": 3.49,
+          "milky_way_core_altitude": -2.0,
+          "bortle_scale": 6.45
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T09:00",
+      "stargazing_score": 89.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 28.0,
+      "temperature": 13.7,
+      "dew_point": -4.5,
+      "dew_point_spread": 18.2,
+      "visibility_meters": 64800.0,
+      "sun_altitude": -62.55,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0867,
+      "moon_altitude": -32.03,
+      "moon_azimuth": 76.52,
+      "milky_way_core_altitude": -70.54,
+      "milky_way_core_azimuth": 278.4,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.12,
+          "cloud_cover_mid": 8.45,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.75,
+          "moon_altitude": 3.47,
+          "milky_way_core_altitude": -2.01,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T10:00",
+      "stargazing_score": 89.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 13.1,
+      "dew_point": -4.1,
+      "dew_point_spread": 17.2,
+      "visibility_meters": 63200.0,
+      "sun_altitude": -51.37,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0843,
+      "moon_altitude": -20.32,
+      "moon_azimuth": 85.77,
+      "milky_way_core_altitude": -82.24,
+      "milky_way_core_azimuth": 306.79,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.46,
+          "cloud_cover_low": 13.95,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 2.75,
+          "moon_altitude": 3.5,
+          "milky_way_core_altitude": -2.02,
+          "bortle_scale": 6.48
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T11:00",
+      "stargazing_score": 89.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 13.1,
+      "dew_point": -4.1,
+      "dew_point_spread": 17.2,
+      "visibility_meters": 63500.0,
+      "sun_altitude": -39.21,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.082,
+      "moon_altitude": -8.43,
+      "moon_azimuth": 94.13,
+      "milky_way_core_altitude": -81.67,
+      "milky_way_core_azimuth": 56.49,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.12,
+          "cloud_cover_mid": 8.47,
+          "cloud_cover_low": 13.95,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 2.74,
+          "moon_altitude": 3.53,
+          "milky_way_core_altitude": -2.02,
+          "bortle_scale": 6.49
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T12:00",
+      "stargazing_score": 89.7,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 12.5,
+      "dew_point": -3.7,
+      "dew_point_spread": 16.2,
+      "visibility_meters": 59000.0,
+      "sun_altitude": -26.79,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0796,
+      "moon_altitude": 3.59,
+      "moon_azimuth": 102.42,
+      "milky_way_core_altitude": -69.85,
+      "milky_way_core_azimuth": 82.33,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.7,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.2 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.16,
+          "cloud_cover_mid": 8.5,
+          "cloud_cover_low": 13.92,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.43,
+          "moon_illumination": 2.95,
+          "moon_altitude": 3.16,
+          "milky_way_core_altitude": -2.04,
+          "bortle_scale": 6.47
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T13:00",
+      "stargazing_score": 88.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 33.0,
+      "temperature": 12.1,
+      "dew_point": -3.7,
+      "dew_point_spread": 15.8,
+      "visibility_meters": 58300.0,
+      "sun_altitude": -14.42,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0773,
+      "moon_altitude": 14.88,
+      "moon_azimuth": 111.39,
+      "milky_way_core_altitude": -57.39,
+      "milky_way_core_azimuth": 92.0,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 88.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.3 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.98,
+          "cloud_cover_mid": 8.39,
+          "cloud_cover_low": 13.98,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.41,
+          "moon_illumination": 4.4,
+          "moon_altitude": 1.09,
+          "milky_way_core_altitude": -2.02,
+          "bortle_scale": 6.28
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T14:00",
+      "stargazing_score": 87.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 31.0,
+      "temperature": 11.6,
+      "dew_point": -4.9,
+      "dew_point_spread": 16.5,
+      "visibility_meters": 60100.0,
+      "sun_altitude": -1.35,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0751,
+      "moon_altitude": 25.56,
+      "moon_azimuth": 121.81,
+      "milky_way_core_altitude": -44.97,
+      "milky_way_core_azimuth": 98.93,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+          "Clear mid-troposphere (+8.2 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)",
+          "Moonlight skyglow glare interfering with faint stars (-1.7 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.13,
+          "cloud_cover_mid": 8.19,
+          "cloud_cover_low": 14.18,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.43,
+          "moon_illumination": 5.69,
+          "moon_altitude": -1.68,
+          "milky_way_core_altitude": -2.05,
+          "bortle_scale": 6.57
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T15:00",
+      "stargazing_score": 86.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 36.0,
+      "temperature": 12.4,
+      "dew_point": -2.2,
+      "dew_point_spread": 14.600000000000001,
+      "visibility_meters": 53500.0,
+      "sun_altitude": 9.27,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0728,
+      "moon_altitude": 34.96,
+      "moon_azimuth": 134.66,
+      "milky_way_core_altitude": -32.76,
+      "milky_way_core_azimuth": 105.24,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 86.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)",
+          "Dark night sky: Moon is down or non-interfering (+6.7 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.3 pts)",
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.94,
+          "cloud_cover_mid": 8.42,
+          "cloud_cover_low": 14.05,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 6.72,
+          "moon_altitude": -3.35,
+          "milky_way_core_altitude": -2.01,
+          "bortle_scale": 6.23
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T16:00",
+      "stargazing_score": 87.3,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 16.2,
+      "dew_point": -0.5,
+      "dew_point_spread": 16.7,
+      "visibility_meters": 59200.0,
+      "sun_altitude": 19.83,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0706,
+      "moon_altitude": 42.16,
+      "moon_azimuth": 150.85,
+      "milky_way_core_altitude": -20.92,
+      "milky_way_core_azimuth": 111.65,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.3,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.8 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.97,
+          "cloud_cover_mid": 8.5,
+          "cloud_cover_low": 14.02,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 7.4,
+          "moon_altitude": -3.81,
+          "milky_way_core_altitude": -2.06,
+          "bortle_scale": 6.62
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T17:00",
+      "stargazing_score": 87.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 31.0,
+      "temperature": 17.8,
+      "dew_point": 0.5,
+      "dew_point_spread": 17.3,
+      "visibility_meters": 58800.0,
+      "sun_altitude": 28.96,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0685,
+      "moon_altitude": 46.01,
+      "moon_azimuth": 170.44,
+      "milky_way_core_altitude": -9.61,
+      "milky_way_core_azimuth": 118.61,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.6 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-4.4 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.91,
+          "cloud_cover_mid": 8.51,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.14,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 7.64,
+          "moon_altitude": -4.44,
+          "milky_way_core_altitude": -2.06,
+          "bortle_scale": 6.83
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T18:00",
+      "stargazing_score": 87.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 19.1,
+      "dew_point": 1.1,
+      "dew_point_spread": 18.0,
+      "visibility_meters": 61100.0,
+      "sun_altitude": 35.86,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0663,
+      "moon_altitude": 45.57,
+      "moon_azimuth": 191.34,
+      "milky_way_core_altitude": 1.28,
+      "milky_way_core_azimuth": 126.52,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.6 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-4.4 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.91,
+          "cloud_cover_mid": 8.51,
+          "cloud_cover_low": 13.95,
+          "relative_humidity": 0.14,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 7.64,
+          "moon_altitude": -4.44,
+          "milky_way_core_altitude": -2.06,
+          "bortle_scale": 6.83
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T19:00",
+      "stargazing_score": 87.3,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 28.0,
+      "temperature": 20.1,
+      "dew_point": 1.1,
+      "dew_point_spread": 19.0,
+      "visibility_meters": 63900.0,
+      "sun_altitude": 39.57,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0642,
+      "moon_altitude": 40.97,
+      "moon_azimuth": 210.32,
+      "milky_way_core_altitude": 10.41,
+      "milky_way_core_azimuth": 135.74,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.3,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.6 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.8 pts)",
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.93,
+          "cloud_cover_mid": 8.56,
+          "cloud_cover_low": 14.0,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.49,
+          "moon_illumination": 7.35,
+          "moon_altitude": -3.82,
+          "milky_way_core_altitude": -2.01,
+          "bortle_scale": 6.62
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T20:00",
+      "stargazing_score": 87.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 27.0,
+      "temperature": 20.9,
+      "dew_point": 1.2,
+      "dew_point_spread": 19.7,
+      "visibility_meters": 65800.0,
+      "sun_altitude": 39.37,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0622,
+      "moon_altitude": 33.23,
+      "moon_azimuth": 225.72,
+      "milky_way_core_altitude": 18.22,
+      "milky_way_core_azimuth": 146.64,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Dark night sky: Moon is down or non-interfering (+6.9 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.4 pts)",
+          "Milky Way galactic core low or below horizon (-1.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.86,
+          "cloud_cover_mid": 8.4,
+          "cloud_cover_low": 13.93,
+          "relative_humidity": 0.16,
+          "dew_point_spread": 0.52,
+          "moon_illumination": 6.9,
+          "moon_altitude": -3.36,
+          "milky_way_core_altitude": -1.24,
+          "bortle_scale": 6.24
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T21:00",
+      "stargazing_score": 89.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 25.0,
+      "temperature": 21.4,
+      "dew_point": 0.6,
+      "dew_point_spread": 20.799999999999997,
+      "visibility_meters": 68400.0,
+      "sun_altitude": 35.31,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0601,
+      "moon_altitude": 23.48,
+      "moon_azimuth": 237.86,
+      "milky_way_core_altitude": 23.89,
+      "milky_way_core_azimuth": 159.34,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-1.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.06,
+          "cloud_cover_mid": 8.26,
+          "cloud_cover_low": 14.07,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.52,
+          "moon_illumination": 5.83,
+          "moon_altitude": -0.99,
+          "milky_way_core_altitude": -1.08,
+          "bortle_scale": 6.57
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T22:00",
+      "stargazing_score": 90.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 24.0,
+      "temperature": 21.3,
+      "dew_point": -0.1,
+      "dew_point_spread": 21.400000000000002,
+      "visibility_meters": 70600.0,
+      "sun_altitude": 28.15,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0581,
+      "moon_altitude": 12.56,
+      "moon_azimuth": 247.71,
+      "milky_way_core_altitude": 26.83,
+      "milky_way_core_azimuth": 173.52,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.98,
+          "cloud_cover_mid": 8.27,
+          "cloud_cover_low": 13.89,
+          "relative_humidity": 0.1,
+          "dew_point_spread": 0.34,
+          "moon_illumination": 4.6,
+          "moon_altitude": 1.14,
+          "milky_way_core_altitude": -0.45,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-06T23:00",
+      "stargazing_score": 91.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 24.0,
+      "temperature": 21.0,
+      "dew_point": -0.4,
+      "dew_point_spread": 21.4,
+      "visibility_meters": 70300.0,
+      "sun_altitude": 18.84,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0562,
+      "moon_altitude": 1.21,
+      "moon_azimuth": 256.16,
+      "milky_way_core_altitude": 26.64,
+      "milky_way_core_azimuth": 188.24,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 91.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.2 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.2,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.94,
+          "relative_humidity": 0.09,
+          "dew_point_spread": 0.28,
+          "moon_illumination": 2.89,
+          "moon_altitude": 3.31,
+          "milky_way_core_altitude": -0.42,
+          "bortle_scale": 6.65
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T00:00",
+      "stargazing_score": 90.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 25.0,
+      "temperature": 20.2,
+      "dew_point": -0.5,
+      "dew_point_spread": 20.7,
+      "visibility_meters": 70000.0,
+      "sun_altitude": 8.19,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0543,
+      "moon_altitude": -11.16,
+      "moon_azimuth": 263.96,
+      "milky_way_core_altitude": 23.34,
+      "milky_way_core_azimuth": 202.29,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-1.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.05,
+          "cloud_cover_mid": 8.42,
+          "cloud_cover_low": 13.89,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.61,
+          "moon_illumination": 3.02,
+          "moon_altitude": 3.41,
+          "milky_way_core_altitude": -1.16,
+          "bortle_scale": 6.52
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T01:00",
+      "stargazing_score": 90.7,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 26.0,
+      "temperature": 18.1,
+      "dew_point": -1.7,
+      "dew_point_spread": 19.8,
+      "visibility_meters": 67900.0,
+      "sun_altitude": -2.16,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0524,
+      "moon_altitude": -23.29,
+      "moon_azimuth": 271.76,
+      "milky_way_core_altitude": 17.37,
+      "milky_way_core_azimuth": 214.78,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.7,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-1.4 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.06,
+          "cloud_cover_mid": 8.4,
+          "cloud_cover_low": 13.93,
+          "relative_humidity": 0.14,
+          "dew_point_spread": 0.63,
+          "moon_illumination": 3.0,
+          "moon_altitude": 3.42,
+          "milky_way_core_altitude": -1.41,
+          "bortle_scale": 6.46
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T02:00",
+      "stargazing_score": 90.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 26.0,
+      "temperature": 17.2,
+      "dew_point": -2.5,
+      "dew_point_spread": 19.7,
+      "visibility_meters": 67900.0,
+      "sun_altitude": -15.63,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0505,
+      "moon_altitude": -35.32,
+      "moon_azimuth": 280.38,
+      "milky_way_core_altitude": 9.35,
+      "milky_way_core_azimuth": 225.46,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.09,
+          "cloud_cover_mid": 8.5,
+          "cloud_cover_low": 13.95,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.63,
+          "moon_illumination": 3.01,
+          "moon_altitude": 3.38,
+          "milky_way_core_altitude": -2.15,
+          "bortle_scale": 6.49
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T03:00",
+      "stargazing_score": 90.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 27.0,
+      "temperature": 16.6,
+      "dew_point": -2.5,
+      "dew_point_spread": 19.1,
+      "visibility_meters": 67100.0,
+      "sun_altitude": -28.02,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0487,
+      "moon_altitude": -46.96,
+      "moon_azimuth": 291.07,
+      "milky_way_core_altitude": 0.21,
+      "milky_way_core_azimuth": 234.5,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.09,
+          "cloud_cover_mid": 8.42,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.62,
+          "moon_illumination": 3.0,
+          "moon_altitude": 3.45,
+          "milky_way_core_altitude": -2.19,
+          "bortle_scale": 6.52
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T04:00",
+      "stargazing_score": 90.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 27.0,
+      "temperature": 15.8,
+      "dew_point": -3.1,
+      "dew_point_spread": 18.900000000000002,
+      "visibility_meters": 66100.0,
+      "sun_altitude": -40.46,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0469,
+      "moon_altitude": -57.6,
+      "moon_azimuth": 306.3,
+      "milky_way_core_altitude": -10.95,
+      "milky_way_core_azimuth": 242.27,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.09,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.97,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.59,
+          "moon_illumination": 2.97,
+          "moon_altitude": 3.45,
+          "milky_way_core_altitude": -2.2,
+          "bortle_scale": 6.51
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T05:00",
+      "stargazing_score": 89.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 15.3,
+      "dew_point": -2.2,
+      "dew_point_spread": 17.5,
+      "visibility_meters": 62200.0,
+      "sun_altitude": -52.59,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0451,
+      "moon_altitude": -65.76,
+      "moon_azimuth": 330.77,
+      "milky_way_core_altitude": -22.33,
+      "milky_way_core_azimuth": 249.15,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.44,
+          "cloud_cover_low": 13.99,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.47,
+          "moon_illumination": 2.91,
+          "moon_altitude": 3.15,
+          "milky_way_core_altitude": -2.2,
+          "bortle_scale": 6.48
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T06:00",
+      "stargazing_score": 89.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 34.0,
+      "temperature": 14.6,
+      "dew_point": -1.1,
+      "dew_point_spread": 15.7,
+      "visibility_meters": 56500.0,
+      "sun_altitude": -63.66,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0434,
+      "moon_altitude": -68.39,
+      "moon_azimuth": 6.69,
+      "milky_way_core_altitude": -34.22,
+      "milky_way_core_azimuth": 255.52,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.12,
+          "cloud_cover_mid": 8.38,
+          "cloud_cover_low": 14.02,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.89,
+          "moon_altitude": 3.15,
+          "milky_way_core_altitude": -2.17,
+          "bortle_scale": 6.49
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T07:00",
+      "stargazing_score": 89.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 37.0,
+      "temperature": 14.2,
+      "dew_point": -0.3,
+      "dew_point_spread": 14.5,
+      "visibility_meters": 52300.0,
+      "sun_altitude": -71.39,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0417,
+      "moon_altitude": -63.78,
+      "moon_azimuth": 39.87,
+      "milky_way_core_altitude": -46.46,
+      "milky_way_core_azimuth": 261.85,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.2 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.4,
+          "cloud_cover_low": 14.01,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 2.9,
+          "moon_altitude": 3.15,
+          "milky_way_core_altitude": -2.16,
+          "bortle_scale": 6.49
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T08:00",
+      "stargazing_score": 89.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 39.0,
+      "temperature": 13.8,
+      "dew_point": 0.1,
+      "dew_point_spread": 13.700000000000001,
+      "visibility_meters": 48600.0,
+      "sun_altitude": -70.96,
+      "moon_phase_name": "Waning Crescent",
+      "moon_illumination": 0.0401,
+      "moon_altitude": -54.69,
+      "moon_azimuth": 61.03,
+      "milky_way_core_altitude": -58.9,
+      "milky_way_core_azimuth": 268.95,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.1,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.98,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.92,
+          "moon_altitude": 3.42,
+          "milky_way_core_altitude": -2.05,
+          "bortle_scale": 6.49
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T09:00",
+      "stargazing_score": 89.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 40.0,
+      "temperature": 13.4,
+      "dew_point": 0.1,
+      "dew_point_spread": 13.3,
+      "visibility_meters": 47200.0,
+      "sun_altitude": -62.76,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0385,
+      "moon_altitude": -43.77,
+      "moon_azimuth": 74.63,
+      "milky_way_core_altitude": -71.35,
+      "milky_way_core_azimuth": 279.31,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.42,
+          "cloud_cover_low": 13.98,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.91,
+          "moon_altitude": 3.38,
+          "milky_way_core_altitude": -2.04,
+          "bortle_scale": 6.5
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T10:00",
+      "stargazing_score": 89.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 41.0,
+      "temperature": 13.3,
+      "dew_point": 0.4,
+      "dew_point_spread": 12.9,
+      "visibility_meters": 46600.0,
+      "sun_altitude": -51.54,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0369,
+      "moon_altitude": -32.14,
+      "moon_azimuth": 84.66,
+      "milky_way_core_altitude": -82.88,
+      "milky_way_core_azimuth": 311.29,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.87,
+          "moon_altitude": 3.34,
+          "milky_way_core_altitude": -2.02,
+          "bortle_scale": 6.5
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T11:00",
+      "stargazing_score": 89.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 42.0,
+      "temperature": 12.8,
+      "dew_point": 0.2,
+      "dew_point_spread": 12.600000000000001,
+      "visibility_meters": 46400.0,
+      "sun_altitude": -39.37,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0353,
+      "moon_altitude": -20.27,
+      "moon_azimuth": 93.12,
+      "milky_way_core_altitude": -80.98,
+      "milky_way_core_azimuth": 59.87,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.11,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 13.94,
+          "relative_humidity": 0.11,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 2.85,
+          "moon_altitude": 3.38,
+          "milky_way_core_altitude": -2.02,
+          "bortle_scale": 6.51
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T12:00",
+      "stargazing_score": 90.0,
+      "rating_category": "Excellent",
+      "is_astronomical_night": true,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 43.0,
+      "temperature": 12.4,
+      "dew_point": 0.2,
+      "dew_point_spread": 12.200000000000001,
+      "visibility_meters": 45300.0,
+      "sun_altitude": -26.95,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0338,
+      "moon_altitude": -8.46,
+      "moon_azimuth": 101.09,
+      "milky_way_core_altitude": -69.04,
+      "milky_way_core_azimuth": 83.16,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.0,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.12,
+          "cloud_cover_mid": 8.44,
+          "cloud_cover_low": 13.97,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 2.9,
+          "moon_altitude": 3.41,
+          "milky_way_core_altitude": -2.01,
+          "bortle_scale": 6.52
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T13:00",
+      "stargazing_score": 89.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 42.0,
+      "temperature": 12.7,
+      "dew_point": 0.1,
+      "dew_point_spread": 12.6,
+      "visibility_meters": 46500.0,
+      "sun_altitude": -14.58,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0323,
+      "moon_altitude": 3.27,
+      "moon_azimuth": 109.31,
+      "milky_way_core_altitude": -56.57,
+      "milky_way_core_azimuth": 92.5,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.2 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.5 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.16,
+          "cloud_cover_mid": 8.49,
+          "cloud_cover_low": 13.97,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 3.15,
+          "moon_altitude": 3.11,
+          "milky_way_core_altitude": -2.08,
+          "bortle_scale": 6.48
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T14:00",
+      "stargazing_score": 88.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 41.0,
+      "temperature": 12.7,
+      "dew_point": -0.2,
+      "dew_point_spread": 12.899999999999999,
+      "visibility_meters": 47000.0,
+      "sun_altitude": -1.48,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0309,
+      "moon_altitude": 14.05,
+      "moon_azimuth": 118.43,
+      "milky_way_core_altitude": -44.16,
+      "milky_way_core_azimuth": 99.35,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 88.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.3 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.96,
+          "cloud_cover_mid": 8.31,
+          "cloud_cover_low": 14.02,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.42,
+          "moon_illumination": 4.61,
+          "moon_altitude": 1.13,
+          "milky_way_core_altitude": -2.12,
+          "bortle_scale": 6.29
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T15:00",
+      "stargazing_score": 88.6,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 42.0,
+      "temperature": 13.4,
+      "dew_point": 0.7,
+      "dew_point_spread": 12.700000000000001,
+      "visibility_meters": 46300.0,
+      "sun_altitude": 9.08,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0295,
+      "moon_altitude": 23.96,
+      "moon_azimuth": 129.16,
+      "milky_way_core_altitude": -31.97,
+      "milky_way_core_azimuth": 105.65,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 88.6,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.3 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.3 pts)",
+          "Clear mid-troposphere (+8.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.13,
+          "cloud_cover_mid": 8.29,
+          "cloud_cover_low": 14.27,
+          "relative_humidity": 0.12,
+          "dew_point_spread": 0.43,
+          "moon_illumination": 5.83,
+          "moon_altitude": -0.98,
+          "milky_way_core_altitude": -2.1,
+          "bortle_scale": 6.62
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T16:00",
+      "stargazing_score": 86.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 37.0,
+      "temperature": 17.1,
+      "dew_point": 2.3,
+      "dew_point_spread": 14.8,
+      "visibility_meters": 51600.0,
+      "sun_altitude": 19.6,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0281,
+      "moon_altitude": 32.29,
+      "moon_azimuth": 142.24,
+      "milky_way_core_altitude": -20.16,
+      "milky_way_core_azimuth": 112.08,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 86.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Dark night sky: Moon is down or non-interfering (+6.9 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.2 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.93,
+          "cloud_cover_mid": 8.43,
+          "cloud_cover_low": 14.09,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 6.93,
+          "moon_altitude": -3.23,
+          "milky_way_core_altitude": -2.07,
+          "bortle_scale": 6.23
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T17:00",
+      "stargazing_score": 87.2,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 35.0,
+      "temperature": 18.8,
+      "dew_point": 3.0,
+      "dew_point_spread": 15.8,
+      "visibility_meters": 54200.0,
+      "sun_altitude": 28.71,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0268,
+      "moon_altitude": 38.18,
+      "moon_azimuth": 158.12,
+      "milky_way_core_altitude": -8.9,
+      "milky_way_core_azimuth": 119.1,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.2,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.2 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.5 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.98,
+          "cloud_cover_mid": 8.5,
+          "cloud_cover_low": 14.15,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.44,
+          "moon_illumination": 7.19,
+          "moon_altitude": -3.46,
+          "milky_way_core_altitude": -2.1,
+          "bortle_scale": 6.29
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T18:00",
+      "stargazing_score": 87.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 33.0,
+      "temperature": 20.0,
+      "dew_point": 3.3,
+      "dew_point_spread": 16.7,
+      "visibility_meters": 55700.0,
+      "sun_altitude": 35.58,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0255,
+      "moon_altitude": 40.68,
+      "moon_azimuth": 176.27,
+      "milky_way_core_altitude": 1.87,
+      "milky_way_core_azimuth": 127.08,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.5 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.0 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.7 pts)",
+          "Milky Way galactic core low or below horizon (-2.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.98,
+          "cloud_cover_mid": 8.46,
+          "cloud_cover_low": 14.09,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 7.51,
+          "moon_altitude": -3.73,
+          "milky_way_core_altitude": -2.12,
+          "bortle_scale": 6.65
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T19:00",
+      "stargazing_score": 87.4,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 21.3,
+      "dew_point": 4.0,
+      "dew_point_spread": 17.3,
+      "visibility_meters": 58000.0,
+      "sun_altitude": 39.28,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0242,
+      "moon_altitude": 39.29,
+      "moon_azimuth": 194.76,
+      "milky_way_core_altitude": 10.97,
+      "milky_way_core_azimuth": 136.4,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.4,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.5 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.3 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.5 pts)",
+          "Milky Way galactic core low or below horizon (-2.0 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.94,
+          "cloud_cover_mid": 8.54,
+          "cloud_cover_low": 14.14,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.45,
+          "moon_illumination": 7.29,
+          "moon_altitude": -3.51,
+          "milky_way_core_altitude": -1.99,
+          "bortle_scale": 6.37
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T20:00",
+      "stargazing_score": 87.5,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 32.0,
+      "temperature": 22.2,
+      "dew_point": 4.7,
+      "dew_point_spread": 17.5,
+      "visibility_meters": 58000.0,
+      "sun_altitude": 39.09,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.023,
+      "moon_altitude": 34.29,
+      "moon_azimuth": 211.36,
+      "milky_way_core_altitude": 18.66,
+      "milky_way_core_azimuth": 147.42,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 87.5,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.0 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Dark night sky: Moon is down or non-interfering (+7.0 pts)",
+          "Clear upper atmosphere with minimal high clouds (+6.9 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-3.3 pts)",
+          "Milky Way galactic core low or below horizon (-1.3 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 6.88,
+          "cloud_cover_mid": 8.39,
+          "cloud_cover_low": 13.96,
+          "relative_humidity": 0.15,
+          "dew_point_spread": 0.46,
+          "moon_illumination": 6.96,
+          "moon_altitude": -3.31,
+          "milky_way_core_altitude": -1.29,
+          "bortle_scale": 6.28
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T21:00",
+      "stargazing_score": 89.2,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 30.0,
+      "temperature": 22.7,
+      "dew_point": 4.3,
+      "dew_point_spread": 18.4,
+      "visibility_meters": 59800.0,
+      "sun_altitude": 35.04,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0218,
+      "moon_altitude": 26.56,
+      "moon_azimuth": 225.13,
+      "milky_way_core_altitude": 24.17,
+      "milky_way_core_azimuth": 160.23,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 89.2,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.2 pts)",
+          "Clear mid-troposphere (+8.2 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.1 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [
+          "Moonlight skyglow glare interfering with faint stars (-1.6 pts)",
+          "Milky Way galactic core low or below horizon (-1.1 pts)"
+        ],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.1,
+          "cloud_cover_mid": 8.23,
+          "cloud_cover_low": 14.2,
+          "relative_humidity": 0.13,
+          "dew_point_spread": 0.47,
+          "moon_illumination": 6.15,
+          "moon_altitude": -1.64,
+          "milky_way_core_altitude": -1.13,
+          "bortle_scale": 6.62
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T22:00",
+      "stargazing_score": 90.8,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 29.0,
+      "temperature": 22.9,
+      "dew_point": 4.0,
+      "dew_point_spread": 18.9,
+      "visibility_meters": 62100.0,
+      "sun_altitude": 27.92,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0206,
+      "moon_altitude": 17.02,
+      "moon_azimuth": 236.3,
+      "milky_way_core_altitude": 26.91,
+      "milky_way_core_azimuth": 174.49,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 90.8,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+14.1 pts)",
+          "Clear mid-troposphere (+8.2 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.2 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.7 pts)"
+        ],
+        "negative_factors": [],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.15,
+          "cloud_cover_mid": 8.21,
+          "cloud_cover_low": 14.12,
+          "relative_humidity": 0.14,
+          "dew_point_spread": 0.49,
+          "moon_illumination": 4.92,
+          "moon_altitude": 0.56,
+          "milky_way_core_altitude": -0.48,
+          "bortle_scale": 6.68
+        }
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-07T23:00",
+      "stargazing_score": 91.9,
+      "rating_category": "Excellent",
+      "is_astronomical_night": false,
+      "cloud_cover": 0.0,
+      "cloud_cover_high": 0.0,
+      "cloud_cover_mid": 0.0,
+      "cloud_cover_low": 0.0,
+      "relative_humidity": 29.0,
+      "temperature": 22.7,
+      "dew_point": 3.7,
+      "dew_point_spread": 19.0,
+      "visibility_meters": 62500.0,
+      "sun_altitude": 18.64,
+      "moon_phase_name": "New Moon",
+      "moon_illumination": 0.0195,
+      "moon_altitude": 6.37,
+      "moon_azimuth": 245.58,
+      "milky_way_core_altitude": 26.51,
+      "milky_way_core_azimuth": 189.2,
+      "is_milky_way_prime_window": false,
+      "explanation": {
+        "predicted_score": 91.9,
+        "base_score": 49.1,
+        "verdict": "Exceptional Stargazing Window: Sky is clear, dark, and highly transparent.",
+        "primary_driver": "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+        "positive_factors": [
+          "Low atmosphere clear of stratocumulus clouds (+13.9 pts)",
+          "Clear mid-troposphere (+8.4 pts)",
+          "Clear upper atmosphere with minimal high clouds (+7.2 pts)",
+          "Dark-sky preservation (Bortle Class 3) with low light pollution (+6.6 pts)"
+        ],
+        "negative_factors": [],
+        "feature_shap_values": {
+          "cloud_cover_high": 7.16,
+          "cloud_cover_mid": 8.38,
+          "cloud_cover_low": 13.89,
+          "relative_humidity": 0.14,
+          "dew_point_spread": 0.59,
+          "moon_illumination": 3.77,
+          "moon_altitude": 2.72,
+          "milky_way_core_altitude": -0.45,
+          "bortle_scale": 6.63
+        }
+      }
+    }
+  ],
+  "meta": {
+    "generated_at_utc": "2026-11-06T15:12:37.847912+00:00",
+    "model_version": "xgboost-3.4.1",
+    "explainer": "TreeSHAP",
+    "api_version": "1.0.0"
+  }
+}
