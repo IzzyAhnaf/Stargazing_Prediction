@@ -1,11 +1,23 @@
-fastapi>=0.115.0
-uvicorn[standard]>=0.30.0
-pydantic>=2.8.0
-requests>=2.31.0
-pandas>=2.2.0
-numpy>=1.26.0
-ephem>=4.1.5
-skyfield>=1.48
-scikit-learn>=1.5.0
-xgboost>=2.0.0
-shap>=0.45.0
+# Backend runtime dependencies — built from the actual `import`/`from`
+# statements found across backend/app/**. Versions are pinned to "minimum
+# known-good" ranges rather than exact pins, so you can `pip install -r`
+# this without fighting resolver conflicts; tighten later if you want
+# fully reproducible builds (`pip freeze > requirements.lock.txt`).
+
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+pydantic>=2.6,<3.0
+pandas>=2.2,<3.0
+numpy>=1.26,<2.3
+xgboost>=2.0,<3.0
+shap>=0.45,<1.0
+ephem>=4.1,<5.0
+requests>=2.31,<3.0
+
+# Only needed if app/ml/train.py (model (re)training) ever runs inside this
+# container. If you only ever serve the already-trained model file and train
+# on your own machine separately, you can delete these two lines and shrink
+# the image. Left in by default since they're small and this is a student
+# project where "just works" beats a slightly smaller image.
+joblib>=1.3,<2.0
+scikit-learn>=1.4,<2.0
