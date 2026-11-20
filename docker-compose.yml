@@ -1,68 +1,58 @@
+# ============================================================
+# docker-compose.yml — run both services together on your own server.
+#
+# Expected repo layout (adjust the `context`/`dockerfile` paths below if
+# yours differs):
+#
+#   repo-root/
+#     backend/
+#       app/...
+#       requirements.txt
+#       Dockerfile          <- copy backend.Dockerfile here
+#     frontend/
+#       src/...
+#       package.json
+#       Dockerfile          <- copy frontend.Dockerfile here
+#     docker-compose.yml    <- this file, at repo root
+#     .gitignore
+#
+# Before running, replace YOUR_SERVER_IP_OR_DOMAIN below with whatever
+# address your server is actually reachable at (the frontend bakes this
+# in at BUILD time — see the note in frontend.Dockerfile).
+# ============================================================
+
 services:
-  # ============================================================================
-  # 1. FastAPI Machine Learning Backend Service
-  # ============================================================================
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: backend/Dockerfile
     container_name: stargazing-backend
     restart: unless-stopped
     ports:
       - "8000:8000"
     environment:
-      - PYTHONUNBUFFERED=1
-      - PORT=8000
+      # Comma-separated list is fine too if your config.py parses it that
+      # way; "*" (the current default in app/core/config.py) works but is
+      # permissive — tighten this once you know your frontend's real URL.
+      - CORS_ORIGINS=["*"]
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 15s
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 30s
       timeout: 5s
       retries: 3
-      start_period: 10s
-    networks:
-      - stargazing-net
+      start_period: 20s
 
-  # ============================================================================
-  # 2. Next.js Night-Sky Frontend Service
-  # ============================================================================
   frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+        # Must be reachable from a visitor's BROWSER, not the Docker
+        # network — e.g. http://203.0.113.10:8000 or https://api.yourdomain.com
+        NEXT_PUBLIC_API_URL: http://YOUR_SERVER_IP_OR_DOMAIN:8000
     container_name: stargazing-frontend
     restart: unless-stopped
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=production
-      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
     depends_on:
-      backend:
-        condition: service_healthy
-    networks:
-      - stargazing-net
-
-  # ============================================================================
-  # 3. Cloudflare Tunnel (Secure Zero-Trust Public Gateway)
-  # ============================================================================
-  tunnel:
-    image: cloudflare/cloudflared:latest
-    container_name: stargazing-cloudflare-tunnel
-    restart: unless-stopped
-    command: tunnel --no-autoupdate run
-    environment:
-      # Set your Cloudflare Tunnel Token in .env file
-      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
-    depends_on:
-      - frontend
       - backend
-    networks:
-      - stargazing-net
-    profiles:
-      - tunnel  # Run with `docker compose --profile tunnel up -d` when tunnel token is configured
-
-networks:
-  stargazing-net:
-    driver: bridge

@@ -1,0 +1,78 @@
+# ============================================================
+# Root .gitignore — covers both backend/ (FastAPI/Python) and
+# frontend/ (Next.js) if you keep them in one repo. If you split
+# them into two repos instead, just copy the matching half into
+# each repo's own .gitignore.
+# ============================================================
+
+# ---------- Secrets / env ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ============================================================
+# Backend (Python / FastAPI)
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.coverage
+.coverage.*
+htmlcov/
+celerybeat-schedule
+*.sqlite3
+instance/
+
+# Trained-model / data artifacts you don't want bloating git.
+# IMPORTANT: if `stargazing_xgb_model.json` lives inside app/ml/, make sure
+# it is NOT caught by a broader rule here — it needs to ship with the repo
+# for the API to work at all. Keep it explicitly un-ignored like this:
+!app/ml/stargazing_xgb_model.json
+*.pkl
+*.joblib
+
+# ============================================================
+# Frontend (Next.js / Node)
+# ============================================================
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.npm
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ============================================================
+# OS / editor noise
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
