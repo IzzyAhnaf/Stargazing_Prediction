@@ -68,6 +68,19 @@ pnpm-debug.log*
 .eslintcache
 
 # ============================================================
+# Docker
+# ============================================================
+docker-compose.override.yml
+.docker/
+*.env.docker
+cloudflared.log
+# cloudflared's own config/credentials if you ever go back to the
+# config-file approach instead of a tunnel token — keep the tunnel's
+# credentials.json out of git either way.
+cloudflare/credentials.json
+cloudflare/*.json
+
+# ============================================================
 # OS / editor noise
 # ============================================================
 .DS_Store

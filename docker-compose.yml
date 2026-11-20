@@ -19,6 +19,23 @@
 # Before running, replace YOUR_SERVER_IP_OR_DOMAIN below with whatever
 # address your server is actually reachable at (the frontend bakes this
 # in at BUILD time — see the note in frontend.Dockerfile).
+#
+# Cloudflare Tunnel (token-based) exposes the FRONTEND to the public
+# domain you set up in Cloudflare Zero Trust. Steps:
+#   1. Cloudflare Zero Trust dashboard → Networks → Tunnels → Create a
+#      tunnel → "Cloudflared" connector.
+#   2. Copy the tunnel token it gives you.
+#   3. In the same tunnel's "Public Hostname" tab, add a hostname (e.g.
+#      stargazing.yourdomain.com) pointing at service
+#      `http://frontend:3000` — that's the Docker Compose service name
+#      below, cloudflared reaches it over the internal compose network,
+#      no port needs to be exposed to the internet for this.
+#   4. Create a `.env` file next to this docker-compose.yml (gitignored)
+#      containing:
+#        CLOUDFLARE_TUNNEL_TOKEN=paste-the-token-here
+#   5. NEXT_PUBLIC_API_URL below can stay pointed at your server's
+#      IP:8000 for the backend — only the frontend is going through the
+#      tunnel here, the backend stays reachable directly.
 # ============================================================
 
 services:
@@ -56,3 +73,15 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: stargazing-cloudflared
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run
+    environment:
+      # Set in a gitignored `.env` file next to this file:
+      #   CLOUDFLARE_TUNNEL_TOKEN=your-token-here
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
+    depends_on:
+      - frontend
