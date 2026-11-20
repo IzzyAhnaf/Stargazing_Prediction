@@ -1,109 +1,153 @@
-# 🌌 Stargazing & Milky Way Forecast Predictor
+# 🌌 Stargazing & Milky Way Visibility Forecast
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Next.js](https://img.shields.io/badge/Next.js-16+-black.svg?logo=next.js&logoColor=white)](https://nextjs.org)
-[![XGBoost](https://img.shields.io/badge/XGBoost-Regressor-green.svg)](https://xgboost.readthedocs.io/)
-[![SHAP](https://img.shields.io/badge/Explainable_AI-TreeSHAP-orange.svg)](https://shap.readthedocs.io/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg?logo=docker&logoColor=white)](https://www.docker.com)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-Tunnels-F38020.svg?logo=cloudflare&logoColor=white)](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+A decision-support web app that predicts how good the sky will be for
+stargazing and Milky Way photography at any location on Earth, for the
+next few days — built as a university course project.
 
-A production-grade, full-stack decision-support system that predicts the optimal time and location for stargazing and astrophotography (Milky Way core visibility). The system fuses real-time weather telemetries, light pollution models, and astronomical ephemeris calculations to generate an explainable **Stargazing Score (0-100%)** and **Best Visit Windows**.
+Pick a spot (or use one of the 24 presets across Indonesia and famous
+dark-sky sites worldwide), and it gives you an hourly clarity score, a
+plain-language explanation of what's helping or hurting visibility (cloud
+cover, moon phase, light pollution, Milky Way core altitude, etc.), and
+the best window of the night to go out and look up.
 
----
+Available in English and Indonesian.
 
-## 🌟 Key Features
+## Features
 
-* **High-Precision Ephemeris Engine (`pyephem`):** Computes exact lunar phase & illumination %, moon altitude, Sun astronomical night threshold ($\le -18^\circ$), and Galactic Center coordinates (Sagittarius A* at $\text{RA } 17^\text{h} 45^\text{m} 40^\text{s}, \text{Dec } -29^\circ 00' 28''$).
-* **Real-time Meteorological Ingestion (Open-Meteo API):** Fetches high-resolution hourly cloud layers (Low, Mid, High cirrus), relative humidity, air temperature, and dew point spread ($T - T_{\text{dew}}$) for optical fogging prevention.
-* **Explainable Machine Learning (XGBoost Regressor + TreeSHAP):** High-performing regressor ($R^2 = 0.976$, $\text{MAE} = 3.2$ pts) coupled with TreeSHAP to deliver human-readable insights (*"Score is penalized 32 pts because high cirrus clouds are at 85%"*).
-* **High-Performance FastAPI Gateway:** Asynchronous endpoints (`/predict-stargazing`), lifespan model pre-warming, and strict Pydantic v2 schemas.
-* **Modern Cosmic Dark-Mode Frontend (Next.js 16 + Tailwind CSS):** Circular animated SVG score gauge, 18:00–06:00 interactive nocturnal clarity timeline, condition checklist cards, and XAI factor breakdown.
-* **Zero-Trust Cloudflare Tunnel Orchestration:** Fully containerized with multi-stage Dockerfiles and `docker-compose.yml`, securely exposable to the public internet without port-forwarding or public IP exposure.
+- Hourly stargazing/Milky Way visibility score, driven by an XGBoost
+  regression model
+- Human-readable explanations per hour via SHAP (`TreeExplainer`) —
+  "why is tonight good or bad," not just a number
+- 24 preset locations (12 in Indonesia, 12 international dark-sky sites),
+  or search/pin any custom lat/lon
+- Bortle scale (light pollution), moon phase & illumination, cloud cover
+  by altitude, Milky Way core altitude and more, factored in
+- Multi-day forecast with a "best night" recommendation
+- Bilingual UI and bilingual backend-generated explanations (EN/ID)
+- Responsive layout (phone / tablet / laptop)
+- Timezone-aware hour display: device timezone, per-site approximate
+  local time, or fixed WIB/WITA/WIT/UTC
+- About page with project info and team
 
----
+## Tech stack
 
-## 📂 Repository Structure
+**Backend** — FastAPI, XGBoost, SHAP, `ephem` (astronomical calculations),
+Open-Meteo (weather data), Pydantic, pandas/numpy.
+
+**Frontend** — Next.js 16 (App Router, Turbopack), TypeScript, Tailwind,
+React Context for i18n.
+
+## Project structure
 
 ```
-project-kampus-ml/
-├── backend/
-│   ├── app/
-│   │   ├── api/v1/endpoints.py          # FastAPI route handlers
-│   │   ├── core/config.py               # Core application configuration
-│   │   ├── ml/
-│   │   │   ├── synthetic_data_generator.py # Physics-informed synthetic dataset generator
-│   │   │   ├── train.py                 # XGBoost training pipeline
-│   │   │   ├── explainer.py             # SHAP TreeExplainer & narrative translator
-│   │   │   ├── predictor.py             # Singleton ML inference engine
-│   │   │   ├── stargazing_xgb_model.json# Serialized XGBoost model
-│   │   │   └── model_metadata.json      # Training metadata & feature importance
-│   │   ├── schemas/stargazing.py        # Pydantic v2 request/response schemas
-│   │   ├── services/
-│   │   │   ├── weather_service.py       # Open-Meteo hourly weather client
-│   │   │   ├── astronomy_service.py     # Ephemeris & celestial mechanics
-│   │   │   ├── light_pollution_service.py# Bortle dark-sky scale estimator
-│   │   │   ├── data_pipeline.py         # End-to-end data pipeline orchestrator
-│   │   │   └── forecast_service.py      # Business logic & summary synthesis
-│   │   └── main.py                      # FastAPI application entrypoint
-│   ├── requirements.txt                 # Backend Python dependencies
-│   └── Dockerfile                       # Python slim production container
-├── frontend/
-│   ├── src/
-│   │   ├── app/                         # Next.js App Router (layout, page, globals.css)
-│   │   ├── components/
-│   │   │   ├── ScoreGauge.tsx           # Circular SVG clarity score gauge
-│   │   │   ├── HourlyTimeline.tsx       # 18:00 - 06:00 nocturnal clarity timeline
-│   │   │   ├── ConditionChecklist.tsx   # Cloud, Moon, Bortle, Dew checklist cards
-│   │   │   ├── SHAPDrawer.tsx           # Explainable AI factors & decision card
-│   │   │   └── LocationSearch.tsx       # Presets (Bromo, Joshua Tree, etc.) & custom coordinates
-│   │   ├── lib/api.ts                   # Real-time API client with fallback simulation
-│   │   └── types/stargazing.ts          # TypeScript domain interfaces
-│   ├── package.json                     # Frontend dependencies
-│   ├── next.config.ts                   # Next.js standalone output config
-│   └── Dockerfile                       # Multi-stage lean production container
-├── cloudflare/
-│   └── config.yml                       # Cloudflare named tunnel ingress rules
-├── docker-compose.yml                   # Service orchestration (backend, frontend, tunnel)
-├── DEPLOYMENT.md                        # Complete deployment & operations guide
-├── test_phase1.py                       # Phase 1 verification runner
-├── test_phase2.py                       # Phase 2 ML training & validation runner
-├── test_phase3.py                       # Phase 3 FastAPI integration test runner
-└── run_backend.py                       # Local Uvicorn launcher
+backend/
+  app/
+    api/v1/            # FastAPI routes
+    core/               # settings
+    ml/                 # XGBoost predictor + SHAP explainer
+    schemas/             # Pydantic request/response models
+    services/            # weather, astronomy, light-pollution, forecast orchestration
+  requirements.txt
+  Dockerfile
+
+frontend/
+  src/
+    app/                 # pages (forecast, /about)
+    components/          # UI components
+    lib/                 # api client, i18n, timezone helpers
+    types/
+  Dockerfile
+
+docker-compose.yml
 ```
 
----
+## Running locally (without Docker)
 
-## ⚡ Quick Start
+**Backend**
 
-### 1. Test All Phases Locally (Python CLI)
 ```bash
-# Phase 1: Test Data Pipeline (Weather + Ephem + Bortle)
-python test_phase1.py
-
-# Phase 2: Test ML Training & SHAP Explanations
-python test_phase2.py
-
-# Phase 3: Test FastAPI Endpoints
-python test_phase3.py
+cd backend
+pip install -r requirements.txt
+uvicorn backend.app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-### 2. Run with Docker Compose
+> Run this from the folder that *contains* `backend/`, not from inside
+> it — every internal import is rooted at `backend.app.*`
+> (e.g. `from backend.app.ml.predictor import StargazingPredictor`), so
+> `backend` has to resolve as a package from your current directory.
+
+API docs at `http://localhost:8000/docs`.
+
+**Frontend**
+
 ```bash
-# Start local containers
-docker compose up --build -d
-
-# Open Web App:
-# Frontend -> http://localhost:3000
-# Backend  -> http://localhost:8000/docs
+cd frontend
+npm install
+npm run dev
 ```
 
-### 3. Expose via Cloudflare Tunnel
+Create `frontend/.env.local` if the backend isn't on `localhost:8000`:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
+App at `http://localhost:3000`.
+
+## Deploying with Docker (self-hosted)
+
+This repo ships with everything needed to run both services with Docker
+Compose on your own server, plus an optional Cloudflare Tunnel so the
+frontend gets a real public domain without opening any ports.
+
 ```bash
-# Add your Cloudflare Tunnel Token in .env, then run:
-docker compose --profile tunnel up -d
+git clone <this-repo-url>
+cd <this-repo>
+cp env.example .env   # fill in CLOUDFLARE_TUNNEL_TOKEN if using the tunnel
+docker compose up -d --build
 ```
 
----
+- Backend → `http://YOUR_SERVER_IP:8000` (docs at `/docs`, health at `/health`)
+- Frontend → `http://YOUR_SERVER_IP:3000`, or your Cloudflare Tunnel domain
+  if you set one up
 
-## 📜 License
-MIT License. Built for stargazers, astrophotographers, and scientific research.
+Before building, edit `docker-compose.yml`:
+- Swap `YOUR_SERVER_IP_OR_DOMAIN` in the frontend's `NEXT_PUBLIC_API_URL`
+  build arg for your server's real, publicly reachable address (it's
+  baked into the frontend's JS bundle at **build time**, so it has to be
+  something a visitor's browser can reach — not an internal Docker
+  hostname).
+- If you're using the Cloudflare Tunnel service, set up a tunnel in the
+  [Cloudflare Zero Trust dashboard](https://one.dash.cloudflare.com/) →
+  Networks → Tunnels, point its public hostname at
+  `http://frontend:3000`, and put the tunnel token in `.env` as
+  `CLOUDFLARE_TUNNEL_TOKEN`.
+
+Rebuilding after a code change:
+
+```bash
+git pull
+docker compose up -d --build
+```
+
+Changing the server's address/domain later requires rebuilding the
+frontend specifically (`NEXT_PUBLIC_API_URL` won't update on a plain
+restart):
+
+```bash
+docker compose build frontend && docker compose up -d
+```
+
+## Team
+
+| Name | NIM |
+|---|---|
+| Izzy Ahnaf | J0404241153 |
+| Bintang Afdhal Ramadani | J0404241111 |
+| Kesya Khoerunisa Putri Suryaman | J0404241058 |
+
+## Data sources
+
+- Weather forecasts: [Open-Meteo](https://open-meteo.com/)
+- Astronomical calculations: [`ephem`](https://rhodesmill.org/pyephem/)
+- Light pollution: Bortle scale estimates by location
