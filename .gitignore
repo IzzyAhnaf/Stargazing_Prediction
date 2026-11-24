@@ -1,19 +1,54 @@
 # ============================================================
-# Root .gitignore — covers both backend/ (FastAPI/Python) and
-# frontend/ (Next.js) if you keep them in one repo. If you split
-# them into two repos instead, just copy the matching half into
-# each repo's own .gitignore.
+# Root .gitignore — Stargazing & Milky Way Forecast Monorepo
+# Covers Backend (FastAPI), Frontend (Next.js), Docker & Secrets
 # ============================================================
 
-# ---------- Secrets / env ----------
+# ============================================================
+# 1. SECRETS, CREDENTIALS & ENVIRONMENT FILES (STRICT)
+# ============================================================
+# Ignore all variations of .env files and un-dotted env files
 .env
 .env.*
+*.env
+*.env.*
+env
+env.*
 !.env.example
+
+# Private keys, certificates, secrets, and auth tokens
 *.pem
 *.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.token
+*.secret
+*credentials*.json
+*token*.json
+credentials.json
+tunnel.json
+
+# Cloudflare tunnel & local daemon secrets/configs
+cloudflare/
+cloudflare/*
+cloudflared.log
 
 # ============================================================
-# Backend (Python / FastAPI)
+# 2. DOCKER LOCAL & SENSITIVE OVERRIDES
+# ============================================================
+# Local docker-compose overrides that may contain local secrets/ports
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.local.yml
+docker-compose.local.yaml
+docker-compose*.env
+*.env.docker
+docker.env
+.docker/
+
+# ============================================================
+# 3. BACKEND (Python / FastAPI / ML)
 # ============================================================
 __pycache__/
 *.py[cod]
@@ -39,16 +74,24 @@ celerybeat-schedule
 *.sqlite3
 instance/
 
-# Trained-model / data artifacts you don't want bloating git.
-# IMPORTANT: if `stargazing_xgb_model.json` lives inside app/ml/, make sure
-# it is NOT caught by a broader rule here — it needs to ship with the repo
-# for the API to work at all. Keep it explicitly un-ignored like this:
-!app/ml/stargazing_xgb_model.json
+# Trained-model / heavy data artifacts
 *.pkl
 *.joblib
+*.h5
+*.onnx
+
+# Allow core model json required by backend
+!backend/app/ml/stargazing_xgb_model.json
+!app/ml/stargazing_xgb_model.json
+
+# Pipeline raw datasets & cache CSVs (prevents 100MB+ bloat in git)
+backend/stargazing_pipeline/cache/
+backend/stargazing_pipeline/cache_v3/
+backend/stargazing_pipeline/*.csv
+!backend/stargazing_pipeline/station_coordinates.csv
 
 # ============================================================
-# Frontend (Next.js / Node)
+# 4. FRONTEND (Next.js / Node)
 # ============================================================
 node_modules/
 .next/
@@ -68,24 +111,27 @@ pnpm-debug.log*
 .eslintcache
 
 # ============================================================
-# Docker
+# 5. ARCHIVES & BACKUP ARTIFACTS
 # ============================================================
-docker-compose.override.yml
-.docker/
-*.env.docker
-cloudflared.log
-# cloudflared's own config/credentials if you ever go back to the
-# config-file approach instead of a tunnel token — keep the tunnel's
-# credentials.json out of git either way.
-cloudflare/credentials.json
-cloudflare/*.json
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bak
+*.backup
+*~
+*.swp
+*.swo
 
 # ============================================================
-# OS / editor noise
+# 6. OS & IDE NOISE
 # ============================================================
 .DS_Store
 Thumbs.db
+desktop.ini
 .vscode/
 .idea/
-*.swp
-*.swo
+*.sublime-project
+*.sublime-workspace
