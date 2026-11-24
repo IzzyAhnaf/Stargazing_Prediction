@@ -35,14 +35,17 @@ cloudflare/*
 cloudflared.log
 
 # ============================================================
-# 2. DOCKER LOCAL & SENSITIVE OVERRIDES
+# 2. DOCKER (DOCKERFILES, COMPOSE & OVERRIDES)
 # ============================================================
-# Local docker-compose overrides that may contain local secrets/ports
-docker-compose.override.yml
-docker-compose.override.yaml
-docker-compose.local.yml
-docker-compose.local.yaml
+Dockerfile
+Dockerfile.*
+*.Dockerfile
+docker-compose*.yml
+docker-compose*.yaml
 docker-compose*.env
+*.env.docker
+docker.env
+.docker/
 *.env.docker
 docker.env
 .docker/
